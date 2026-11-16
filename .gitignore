@@ -1,0 +1,28 @@
+# Datos: contienen información de la empresa, no se suben
+data/raw/*
+resultados/*
+docs/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.csv
+*.pkl
+*.parquet
+__pycache__/
+.ipynb_checkpoints/
+_temporal/
+*.db
+*.sqlite
+
+# Power BI: el .pbix lleva los datos cargados dentro (pesa ~14 MB y son datos de la empresa); se entrega por aparte
+*.pbix
+*.pbit
+*.docx
+*.pptx
+~$*
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
